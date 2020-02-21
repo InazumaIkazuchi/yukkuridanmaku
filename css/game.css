@@ -1,0 +1,60 @@
+body{
+	background-image : url("../images/bg.jpg");
+	background-repeat : no-repeat;
+	background-size : cover;
+}
+
+#canvas-holder{
+	width : 400px;
+	margin : auto;
+}
+
+h1{
+	text-align : center;
+	color : white;
+}
+
+#canvasArea{
+	background-image : url("../images/canvas_bg.jpg");
+	background-repeat : no-repeat;
+	background-size : 400px 600px;
+	border : 2px solid red;
+}
+
+#score-board{
+	border : 1px solid red;
+	background-color : black;
+	color : white;
+	display : block;
+	width : 200px;
+	margin : auto;
+	text-align : center;
+	padding-top : 10px;
+	padding-bottom : 10px;
+	font-size : 18px;
+}
+
+#difficulty{
+	width : 400px;
+	border : 1px solid red;
+	background-color : black;
+	color : white;
+	display : block;
+	padding : 5px 5px 5px 5px;
+	margin-top : 5px;
+	margin-left : auto;
+	margin-right : auto;
+}
+
+#footer{
+	font-size : small;
+	width : 400px;
+	border : 1px solid red;
+	background-color : black;
+	color : white;
+	font-style : italic;
+	padding : 2px 5px 2px 5px;
+	margin-left : auto;
+	margin-right : auto;
+	margin-top : -12px;
+}

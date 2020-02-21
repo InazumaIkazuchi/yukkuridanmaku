@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+	<title>Yukkuri's Danmaku Game</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/game.css">
+	<link rel="icon" href="images/reimu_yukkuri_ps.png">
+	<script src="js/game.js"></script>
+</head>
+<body>
+<div id="wrapper">
+	<h1>Yukkuri's Danmaku Game<br>
+	(Yukkuri's Barrage Game)</h1>
+	<div id="canvas-holder">
+		<canvas id="canvasArea">
+			Your browser doesn't currently support HTML5 Canvas.
+		</canvas>
+	</div>
+	<div id="score-board">Score: <span id="time-survived">0</span></div>
+	<div id="difficulty">Difficulty
+		<form name="form">
+			<input type="radio" name="difficulty" value="Easy" checked> Easy
+			<input type="radio" name="difficulty" value="Normal"> Normal
+			<input type="radio" name="difficulty" value="Hard"> Hard
+			<input type="radio" name="difficulty" value="Nightmare"> Nightmare
+		</form>
+		<input id="start" type="button" value="Game Start">
+		<input id="mute" type="button" value="Mute">
+		<input id="help" type="button" value="Help">
+	</div>
+	<br>
+	<div id="audio">
+		<audio id="music" autoplay loop src="audio/Reimu_theme.mp3" type="audio/mpeg"></audio>
+	</div>
+	<div id="footer">
+		Original Game: Touhou Project - ZUN<br>
+		BGM : IN Stage 4 (uncanny) Boss - Reimu Hakurei's Theme - Maiden's Capriccio ~ Dream Battle
+	</div>
+</div>
+</body>
